@@ -72,7 +72,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Helpers\" />
 	  <Folder Include="Services\" />
 	  <Folder Include="IServices\" />
 	  <Folder Include="Models\" />
