@@ -1,10 +1,9 @@
-﻿using System.Globalization;
-
-namespace Maui.Apps.Framework.Converters
+﻿namespace Maui.Apps.Framework.Converters
 {
-    //Позволяет инвертировать значения типа bool,
-    //что может быть полезно при работе с привязками данных
-    //в WPF или других подобных технологиях.
+    // Позволяет инвертировать значения типа bool,
+    // что может быть полезно при работе с привязками данных
+    // в WPF или других подобных технологиях.
+    // Класс нужен для отображения пользователю, понравилось видео или нет.
     public class InverseBooleanConverter : IValueConverter
     {
         /// <summary>

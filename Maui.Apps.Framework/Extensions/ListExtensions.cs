@@ -1,5 +1,4 @@
-﻿using System.Collections.ObjectModel;
-
+﻿
 namespace Maui.Apps.Framework.Extensions
 {
     //В данном коде определен статический класс "ListExtensions",
