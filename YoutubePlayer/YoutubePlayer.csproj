@@ -72,13 +72,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\" />
-	  <Folder Include="IServices\" />
 	  <Folder Include="ViewControls\" />
 	  <Folder Include="ViewModels\Base\" />
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="IViews\" />
 	  <Folder Include="Views\Base\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Maui.Apps.Framework\Maui.Apps.Framework.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
