@@ -72,8 +72,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\Base\" />
-	  <Folder Include="ViewModels\" />
 	  <Folder Include="IViews\" />
 	  <Folder Include="Views\Base\" />
 	</ItemGroup>
