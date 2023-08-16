@@ -7,3 +7,4 @@ global using MonkeyCache;
 global using System.Net;
 global using YoutubePlayer.IServices;
 global using CommunityToolkit.Mvvm.Input;
+global using Maui.Apps.Framework.UI;
