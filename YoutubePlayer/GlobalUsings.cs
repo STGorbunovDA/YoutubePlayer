@@ -11,3 +11,5 @@ global using Maui.Apps.Framework.UI;
 global using Microsoft.Maui.LifecycleEvents;
 global using MonkeyCache.FileStore;
 global using YoutubePlayer.Services;
+global using YoutubePlayer.ViewModels.Base;
+global using YoutubePlayer.Helpers;

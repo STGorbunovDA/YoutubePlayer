@@ -11,9 +11,8 @@
         protected IApiService _appApiService { get; set; }
 
         /// <summary>
-        ///  позволяет инъектировать зависимость от IApiService во все классы, наследующие AppViewModelBase.
+        ///  Позволяет инъектировать зависимость от IApiService во все классы, наследующие AppViewModelBase.
         /// </summary>
-        /// <param name="appApiService"></param>
         public AppViewModelBase(IApiService appApiService) : base()
         {
             _appApiService = appApiService;
@@ -22,7 +21,6 @@
         /// <summary>
         /// возврат назад на предыдущую страницу
         /// </summary>
-        /// <returns></returns>
         [RelayCommand]
         private async Task NavigateBack() =>
             await NavigationService.PopAsync();
@@ -30,7 +28,6 @@
         /// <summary>
         /// Закрытие текущего модального окна.
         /// </summary>
-        /// <returns></returns>
         [RelayCommand]
         private async Task CloseModal() =>
             await NavigationService.PopModalAsync();
