@@ -1,9 +1,11 @@
-namespace YoutubePlayer.Views;
-
-public partial class StartPage : ContentPage
+namespace YoutubePlayer.Views
 {
-	public StartPage()
-	{
-		InitializeComponent();
-	}
+    public partial class StartPage : ViewBase<StartPageViewModel>
+    {
+        public StartPage()
+        {
+            InitializeComponent();
+        }
+    }
 }
+

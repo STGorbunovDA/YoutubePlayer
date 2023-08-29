@@ -13,3 +13,6 @@ global using MonkeyCache.FileStore;
 global using YoutubePlayer.Services;
 global using YoutubePlayer.ViewModels.Base;
 global using YoutubePlayer.Helpers;
+global using YoutubePlayer.ViewModels;
+global using YoutubePlayer.Views.Base;
+global using Maui.Apps.Framework.Exceptions;

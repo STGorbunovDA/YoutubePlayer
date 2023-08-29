@@ -1,4 +1,6 @@
-﻿namespace YoutubePlayer
+﻿
+
+namespace YoutubePlayer
 {
     public static class MauiProgram
     {
@@ -64,6 +66,9 @@
             // Класс YoutubeService выбран как реализация этого интерфейса.
             // Также зависимость регистрируется как Singleton.
             services.AddSingleton<IApiService, YoutubeService>();
+
+            //Register View Models
+            services.AddSingleton<StartPageViewModel>();
         }
     }
 }
