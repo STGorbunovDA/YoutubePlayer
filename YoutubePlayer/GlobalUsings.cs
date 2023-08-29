@@ -8,3 +8,6 @@ global using System.Net;
 global using YoutubePlayer.IServices;
 global using CommunityToolkit.Mvvm.Input;
 global using Maui.Apps.Framework.UI;
+global using Microsoft.Maui.LifecycleEvents;
+global using MonkeyCache.FileStore;
+global using YoutubePlayer.Services;
